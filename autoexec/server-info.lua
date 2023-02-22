@@ -1,5 +1,6 @@
 --[[
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SecretSupply/Roblox-Scripts/main/autoexec/Server.lua"))()
+    secret#0002
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SecretSupply/Roblox-Scripts/main/autoexec/server-info.lua"))()
 ]]
 
 local server do
