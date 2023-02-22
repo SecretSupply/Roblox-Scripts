@@ -1,3 +1,7 @@
+--[[
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SecretSupply/Roblox-Scripts/main/autoexec/Server.lua"))()
+]]
+
 local server do
     local serverString = game:GetService('NetworkClient').ConnectionAccepted:Wait();
     local ip, port = string.match(serverString, '(%S+)|(%S+)');
